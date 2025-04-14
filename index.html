@@ -6,60 +6,46 @@
     <title>Document</title>
 </head>
 <body>
+    <center>
     <header>
-        <H1> US Gas Price</H1>
-        <h3> Average Gas Prices Every Week of Various US Cites</h3>
+        <H1> College Major and Average Incomes</H1>
+        <h5> Average Incomes of Various Colleges Majors Graduate after Graduation Based on the Major Category </h3>
     </header>
     <br>
     <div class="middle">
    <center>
-    <select name="year" id="year">
-        <option value="2003">2003</option>
-        <option value="2004">2004</option>
-        <option value="2005">2005</option>
-        <option value="2006">2006</option>
-        <option value="2007">2008</option>
-        <option value="2008">2008</option>
-        <option value="2009">2009</option>
-        <option value="2010">2010</option>
-        <option value="2011">2011</option>
-        <option value="2012">2012</option>
-        <option value="2013">2013</option>
-        <option value="2014">2014</option>
-        <option value="2015">2015</option>
-        <option value="2016">2016</option>
-        <option value="2017">2017</option>
-        <option value="2018">2018</option>
-        <option value="2019">2019</option>
-        <option value="2020">2020</option>
-        <option valie="2021">2021</option>
-        <option valie="2022">2022</option>
-    </select>
-
-    <select name="cities" id="cities">
-        <option value="usaverage">US Average</option>
-        <option value="boston">Boston</option>
-        <option value="chicago">Chicago</option>
-        <option value="cleavland">Cleavland</option>
-        <option value="denver">Denver</option>
-        <option value="houston">Houston</option>
-        <option value="losangeles">Los Angeles</option>
-        <option value="miami">Miami</option>
-        <option value="newyorkcity">New York City</option>
-        <option value="sanfrancisco">San Francisco</option>
-        <option value="seattle">Seattle</option>
-
+    Major Category:
+    <select name="categories" id="categories">
+        <option value="Engineering"> Engineering</option>
+        <option value="Business"> Buisness</option>
+        <option value="Physical Sciences"> Physical Sciences</option>
+        <option value="Law & Public Policy"> Law & Public Policy</option>
+        <option value="Computers & Mathematics"> Computers & Mathematics</option>
+        <option value="Industrial Arts & Consumer Services"> Industrial Arts & Consumer Services	</option>
+        <option value="Arts">Arts</option>
+        <option value="Health">Health</option>
+        <option value="Social Science">Arts</option>
+        <option value="Biology & Life Science">Biology & Life Science</option>
+        <option value="Education">Education</option>
+        <option value="Agriculture & Natural Resources">Agriculture & Natural Resources</option>
+        <option value="Humanities & Liberal Arts">Humanities & Liberal Arts</option>  
+        <option value="Psychology & Social Work">Psychology & Social Work</option>
+        <option value="Communications & Journalism">Communications & Journalism</option>
+        
     </select>
     </div>
     <br>
 <br>
 <br>
 <center>
-<button>Get My Gas Price</button>
+<button onclick="getsalary(document.getElementById('categories').value)"> Get Salary </button>
     <div class="outputbox">
         <p id="output"></p>
     </div>
-    <script src="util.js"></script>
-    <script src="script.js"></script>
+
+
+
+<script src="utils.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
