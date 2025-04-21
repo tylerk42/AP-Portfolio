@@ -1,1 +1,62 @@
+Header{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid;
+    padding:10px;
+    background-color: #85a2b6;
 
+    
+    
+}
+Body{
+    background-color: #586a76;
+}
+.middle{
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid;
+    background-color: #85a2b6;
+ 
+    padding:50px;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color:rgb(0, 0, 0);
+    font-weight: 1000;
+}
+select{
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color:rgb(0, 0, 0);
+    font-weight: 1000;
+    background-color: #85a2b6;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    height:30px
+}
+button{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    font-weight: 1000;
+    background-color: #85a2b6;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid
+}
+
+.outputbox{
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color:rgb(0, 0, 0);
+    font-weight: 1000;
+    background-color:  #85a2b6;;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid;
+    height: fit content;
+}

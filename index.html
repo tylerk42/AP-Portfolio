@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Tyler and Landon's AP Project
+    </title>
+
+    
 </head>
 <body>
     <center>
@@ -12,10 +16,12 @@
         <h5> Average Incomes of Various Colleges Majors Graduate after Graduation Based on the Major Category </h3>
     </header>
     <br>
+    <br>
     <div class="middle">
    <center>
     Major Category:
     <select name="categories" id="categories">
+        <option value=""></option>
         <option value="Engineering"> Engineering</option>
         <option value="Business"> Buisness</option>
         <option value="Physical Sciences"> Physical Sciences</option>
@@ -24,7 +30,7 @@
         <option value="Industrial Arts & Consumer Services"> Industrial Arts & Consumer Services	</option>
         <option value="Arts">Arts</option>
         <option value="Health">Health</option>
-        <option value="Social Science">Arts</option>
+        <option value="Social Science">Social Sciences</option>
         <option value="Biology & Life Science">Biology & Life Science</option>
         <option value="Education">Education</option>
         <option value="Agriculture & Natural Resources">Agriculture & Natural Resources</option>
@@ -34,15 +40,18 @@
         
     </select>
     </div>
-    <br>
 <br>
 <br>
 <center>
 <button onclick="getsalary(document.getElementById('categories').value)"> Get Salary </button>
-    <div class="outputbox">
+   <br>
+   <br>
+   <br>
+<div class="outputbox">
         <p id="output"></p>
     </div>
-
+<br>
+<br>
 
 
 <script src="utils.js"></script>

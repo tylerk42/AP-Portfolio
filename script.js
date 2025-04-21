@@ -14,8 +14,4 @@ var output=[]
 document.getElementById("output").innerHTML=output.join("<br></br>")
 }
 
-// function getsalary(something){
-//     console.log("hello")
-//     something=false
-// }
 
